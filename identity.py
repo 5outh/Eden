@@ -1,4 +1,6 @@
-class Identity:
+from algebras import *
+
+class Identity(Monoid, Monad, Comonad):
     def __init__(self, value):
         self.value = value
 
